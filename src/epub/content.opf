@@ -57,25 +57,28 @@
 		<link href="https://github.com/standardebooks/maurice-leblanc_the-damsel-with-green-eyes" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Maurice Leblanc</dc:creator>
 		<meta property="file-as" refines="#author">Leblanc, Maurice</meta>
-		<meta property="schema:alternateName" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
 		<link href="https://en.wikipedia.org/wiki/Maurice_Leblanc" refines="#author" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n50042568.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<dc:contributor id="translator">The Macaulay Company</dc:creator>
+		<meta property="file-as" refines="#translator">Macaulay Company, The</meta>
+		<link href="https://en.wikipedia.org/wiki/Macaulay_Company" refines="#translator" rel="schema:sameAs"/>
+		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
 		<dc:contributor id="artist">COVER_ARTIST_NAME</dc:contributor>
 		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
 		<link href="COVER_ARTIST_WIKI_URL" refines="#artist" rel="schema:sameAs"/>
 		<link href="COVER_ARTIST_NACOAF_URI" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER_1_NAME</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">Jeroen Hellingman</meta>
+		<dc:contributor id="transcriber-1">Jeroen Hellingman</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Hellingman, Jeroen</meta>
 		<link href="TRANSCRIBER_1_URL" refines="#transcriber-1" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders</meta>
 		<link href="https://www.pgdp.net/" refines="#transcriber-3" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER_NAME</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
+		<dc:contributor id="producer-1">Jan Niklas Drescher</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Drescher, Jan Niklas</meta>
 		<link href="PRODUCER_URL" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
