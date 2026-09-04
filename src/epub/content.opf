@@ -60,7 +60,7 @@
 		<link href="https://en.wikipedia.org/wiki/Maurice_Leblanc" refines="#author" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n50042568.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="translator">The Macaulay Company</dc:creator>
+		<dc:contributor id="translator">The Macaulay Company</dc:contributor>
 		<meta property="file-as" refines="#translator">Macaulay Company, The</meta>
 		<link href="https://en.wikipedia.org/wiki/Macaulay_Company" refines="#translator" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
