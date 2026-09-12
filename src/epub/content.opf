@@ -41,14 +41,18 @@
 		<dc:subject id="subject-3">Lupin, Arsène (Fictitious character) -- Fiction</dc:subject>
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">Unknown</meta>
-		<meta property="schema:genre">TAG</meta>
+		<meta property="schema:genre">Fiction</meta>
+		<meta property="schema:additionalType">http://schema.org/Collection</meta>
+		<meta id="collection-1" property="belongs-to-collection">Arsène Lupin</meta>
+		<meta property="collection-type" refines="#collection-1">series</meta>
+		<meta property="group-position" refines="#collection-1">15</meta>
 		<meta property="schema:abstract">DESCRIPTION</meta>
 		<dc:description>
 			LONG_DESCRIPTION
 		</dc:description>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/74269</dc:source>
-		<dc:source>PAGE_SCANS_URL</dc:source>
+		<dc:source>https://archive.org/details/arsnelupinsupe00lebl</dc:source>
 		<meta property="schema:wordCount">WORD_COUNT</meta>
 		<meta property="schema:educationalLevel">READING_EASE</meta>
 		<link href="EBOOK_WIKI_URL" rel="schema:sameAs"/>
