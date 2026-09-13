@@ -24,3 +24,7 @@ footer{
 .telegram{
 	font-variant: all-small-caps;
 }
+
+td.number{
+	text-align: right;
+}
