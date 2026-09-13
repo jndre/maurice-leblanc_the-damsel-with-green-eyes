@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
 	<file path="chapter-6.xhtml">
-        <ignore code="t-003">
-            <reason>Content of telegram spans two lines.</reason>
-        </ignore>
+		<ignore code="t-003">
+			<reason>Content of telegram spans two lines.</reason>
+		</ignore>
 	</file>
-    <file path="chapter-8.xhtml">
+	<file path="chapter-8.xhtml">
 		<ignore code="s-081">
-            <reason>Table and paragraph are part of the same blockquote.</reason>
-        </ignore>
+			<reason>Table and paragraph are part of the same blockquote.</reason>
+		</ignore>
 	</file>
 </se-lint-ignore>
