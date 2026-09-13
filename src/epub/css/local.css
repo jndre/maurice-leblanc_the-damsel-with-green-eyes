@@ -4,3 +4,8 @@
 q{
 	font-style: italic;
 }
+
+blockquote header p{
+	font-style: italic;
+	text-align: center;
+}
