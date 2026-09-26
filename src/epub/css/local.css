@@ -36,3 +36,7 @@ p[epub|type~="z3998:salutation"]{
 td.number{
 	text-align: right;
 }
+
+blockquote table td + td{
+	padding-left: 1em;
+}
