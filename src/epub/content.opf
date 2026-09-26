@@ -68,14 +68,12 @@
 		<meta property="file-as" refines="#translator">Macaulay Company, The</meta>
 		<link href="https://en.wikipedia.org/wiki/Macaulay_Company" refines="#translator" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
-		<dc:contributor id="artist">COVER_ARTIST_NAME</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<link href="COVER_ARTIST_WIKI_URL" refines="#artist" rel="schema:sameAs"/>
-		<link href="COVER_ARTIST_NACOAF_URI" refines="#artist" rel="schema:sameAs"/>
+		<dc:contributor id="artist">Ricardo Lopez-Cabrera</dc:contributor>
+		<meta property="file-as" refines="#artist">Lopez-Cabrera, Ricardo</meta>
+		<link href="https://id.loc.gov/authorities/names/nr00016454.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Jeroen Hellingman</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Hellingman, Jeroen</meta>
-		<link href="TRANSCRIBER_1_URL" refines="#transcriber-1" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders</meta>
@@ -83,7 +81,7 @@
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Jan Niklas Drescher</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Drescher, Jan Niklas</meta>
-		<link href="PRODUCER_URL" refines="#producer-1" rel="schema:url"/>
+		<link href="https://jndrescher.de/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
